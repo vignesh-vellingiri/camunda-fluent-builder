@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.aot.camunda.bpmn</groupId>
+  <artifactId>fluent-builder-api</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+		<dependency>
+		    <groupId>org.camunda.bpm.model</groupId>
+		    <artifactId>camunda-bpmn-model</artifactId>
+		    <version>7.10.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.camunda.bpm/camunda-engine -->
+		<dependency>
+		    <groupId>org.camunda.bpm</groupId>
+		    <artifactId>camunda-engine</artifactId>
+		    <version>7.11.0</version>
+		 <!--    <scope>provided</scope> -->
+		</dependency>
+
+		
+  </dependencies>
+</project>
